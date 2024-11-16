@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Taplink</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Хэдер -->
+  <header class="header">
+    <h1>Хочешь стать частью нашего SMM-отдела?</h1>
+    <p>Узнай больше и присоединяйся!</p>
+  </header>
+  
+  <div class="content">
+    <!-- Текстовая часть слева -->
+    <div class="info">
+      <h2>Что вас ждет?</h2>
+      <ul>
+        <li>&#10022;Большое количество ВЧ</li>
+        <li>&#10022;Дружная команда</li>
+        <li>&#10022;Бейджики SMM отдела</li>
+        <li>&#10022;Благодарственные письма</li>
+      </ul>
+      <button id="details-btn" class="details-btn" onclick="showDetails()">Подробнее</button>
+      <div id="details" class="details hidden">
+        <h3>Какие есть подотделы в СММ?</h3>
+        <p>— дизайнерский, копирайтеры, видеографы, репортёры, тиктокеры</p>
+        <h3>Что надо делать?</h3>
+        <ul>
+          <li><strong>&bull;Дизайнеры:</strong> —</li>
+          <li><strong>&bull;Копирайтеры:</strong> —</li>
+          <li><strong>&bull;Видеографы:</strong> —</li>
+          <li><strong>&bull;Репортёры:</strong> —</li>
+          <li><strong>&bull;Тиктокеры:</strong> —</li>
+        </ul>
+        <h3>Как к вам попасть?</h3>
+        <p>— нажимай на "Вступай к нам", заполняй Форму и все! При ошибке можешь написать в Instagram или на WhatsApp.</p>
+        <button id="close-btn" class="close-btn" onclick="hideDetails()">Закрыть</button>
+      </div>
+    </div>
+
+    <!-- Правая часть -->
+    <div class="container">
+      <div class="profile">
+        <img src="./img/WhatsApp Image 2024-11-16 at 02.04.56.jpeg" alt="Profile" class="profile-img">
+        <h1 class="profile-name">SMM Department</h1>
+        <p class="profile-desc">Вступай в SMM отдел Лиги Волонтеров!</p>
+      </div>
+      <div class="links">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScH71DMWEUfNHUY-WUJjm9jEOq4kpxZfDRYgmDelp7IQf9HNg/viewform?fbclid=PAY2xjawGkdeJleHRuA2FlbQIxMAABpkM6tG4Ez0WkJNcPJwwDIV59Zp2JKXrzov16ib5YdtFYHh_8vfbc_Qu3iQ_aem_blv_7RF1Lz4Auv1dn3fxnw" target="_blank" class="link">Вступай к нам!</a>
+        <a href="https://www.instagram.com/smm_dep_lv?igsh=dTBmOGltbWQ3NGMz" target="_blank" class="link1">Instagram</a>
+        <a href="https://wa.me/77712418064" class="link1">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <p>© 2024 SMM-отдел Лиги Волонтеров. Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
